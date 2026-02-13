@@ -1,0 +1,12 @@
+name: imdb_wrangling_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - wordcloud
